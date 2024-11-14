@@ -1,0 +1,33 @@
+/* Navbar.css */
+.container {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+}
+
+.nav_brand .nav_link {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav_list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav_link:hover {
+  color: #ddd;
+}
